@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title> Introduction to Web Pages</title>
+        <link rel="stylesheet" type="text/css" href="styles/semantic.css" media="screen" />
+    </head>
+    <body>
+    <section>
+        <br /><br />
+        <fieldset>
+            <textarea rows="8" cols="50">
+                some pre-populated text
+            </textarea>
+            
+            <select>
+                <option value="hide val passed to server">showing description for the value</option>
+                <option value="another val">another one</option>
+                <optgroup label="group of option values">
+                    <option value="first grouped">first one in the optgroup</option>
+                    <option value="ano">another one</option>
+                </optgroup>
+                <optgroup label="another group of option values">
+                    <option value="first grouped again">first one in another optgroup</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </section>
+    <br />
+    <br /> 
+    <section>
+        <article>
+        <fieldset>
+            <legent>input using form with different type</legent>
+            <br >
+            <form ...>
+                Username: <input type="text" name="username" placeholder="Enter Your Username"/><br>
+                E-mail Address: <input type="email" name="emailaddress" /><br>
+                Age:<br />
+                <br /><input type="range" name="age" min="0" max="100" value="25" /><br />
+                <br />
+                <input type="submit" value="Click Me to Submit" />
+                <br><br>
+                Button using input: <input type="button" name="an input button" />
+            </form>
+        </fieldset>
+        </article>
+        <br><br>
+        <article>
+            </form>
+            <br />
+            <button type="button">
+                <img src="consulting jargon generator.png" alt="consult jargon" />
+                <br />
+                the button using button element: Click the Consultant's Jargon!
+            </button>
+        <br /> <br />
+        </article>
+        <fieldset>
+            <legend> input validation</legend><br>
+            <form>
+                reguired and patterned: <input name="zip_code" type="text" pattern="\d{5}(-\d{4})?" required="required" /><br><br>
+                fixed: <input name="fixed" type="text" placeholder="u cannot change me!" readonly="readonly" /><br><br>
+                disabled submit: <input type="submit" disabled="disabled" /><br><br>
+                range 1 to 15: <input name="issue_quantity" type="range" min="1" max="15" /><br><br>
+                limited date<input name="service_date" type="date" min="2016-01-01" max="2016-03-28"><br><br>
+                auto complete: <input name="api_key" type="text" autocomplete="on" /><br><br>
+                color picker: <input name="color_pick" type="color" />
+            </form>
+        </fieldset>
+    <article>
+        <header>News Website</header>
+        <nav>Navigation Links</nav>
+        <aside>Advertiser Information</aside>
+    </article>
+    </section>
+    </body>
+    
+    
+    
+</html>
