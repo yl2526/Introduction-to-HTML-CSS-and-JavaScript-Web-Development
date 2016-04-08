@@ -1,0 +1,69 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+}
+header {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(#051118, #5C373C);
+    color: #CAA893;
+    border: thin #CAA893 inset;
+    margin: 20px 30px;
+    padding: 10px 20px;
+}
+article {
+color: #5C373C;
+margin: 10px;
+}
+footer {
+font-size: x-small;
+font-style: italic;
+background-color: #C14860;
+padding: 10px;
+}
+section, header, footer {
+    margin: 20px;
+    border: 1px black solid;
+    padding: 10px;
+    min-height: 60px;
+}
+
+.grayBackground {
+    background-color: #F0F2F1;
+}
+
+.tanBackground {
+    background-color: #D4C0A7;
+}
+
+.purpleBackground {
+    background-color: #B2A4A1;
+}
+
+header.purpleBackground {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+header.purpleBackground > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.grayBackground {
+    color: #938373;
+}
+
+section p {
+  font-family: monospace;
+}
+section > article > aside > p {
+  font-weight: bold;
+}
+section > article p {
+  font-style: italic;
+}
+section > p:last-child {
+font-weight: bold;
+}
+
