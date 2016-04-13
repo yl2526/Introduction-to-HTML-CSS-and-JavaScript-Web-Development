@@ -1,5 +1,5 @@
 body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+font-family: Caveat;       
 background-color: #506566;
 }
 aside {
@@ -28,7 +28,7 @@ nav {
 }
 body {
     background-color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Caveat;
 }
 aside {
     background-color: white;
@@ -36,4 +36,9 @@ aside {
     padding: 10px;
     margin: 5px;
 }
+}
+
+@font-face {
+font-family: Caveat;
+src: url('../fonts/caveat.ttf') format('truetype');
 }
